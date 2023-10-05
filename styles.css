@@ -160,6 +160,11 @@ strong,span{
     outline: none;
     cursor: pointer;
 }
+#cert-thumbnail {
+    position: relative;
+    width: 100px;
+    border-radius: 20px;
+  }
 .card > ul{
     list-style-type: none;
 }
