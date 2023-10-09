@@ -1,4 +1,5 @@
-# The Cloud Resume Challenge - AWS Edition
+# The Cloud Resume Challenge - AWS Edition (In development)
+preview https://mrclalmd.live
 
 ## Intro
 Inspired from The Cloud Resume Challenge book, this project aims to leverage AWS resources to publish a resume to the internet, using multiple services such as Route 53, S3 Buckets, CloudFront, DynamoDB, API Gateway, AWS SAM CLI.
@@ -7,10 +8,13 @@ While the focus is using cloud resources, we also get to implement a bit of the 
 
 On top of that there is also abit of HTML, CSS, Python and JavaScript.
 
-## Pre-Requisites
-- Cloud Practitioner Certification
-- AWS Account configured as to not use root user
+https://cloudresumechallenge.dev/docs/the-challenge/aws/
+
+## General Guide
+- Get Cloud Practitioner Certified
+- ConfigureAWS Account configured as to not use root user
 - Will to learn
+- Stick to us-east-1 region
 
 ## Implementation
 
@@ -25,3 +29,7 @@ On top of that there is also abit of HTML, CSS, Python and JavaScript.
 - Since Im applying for DevOps and SRE roles, I searched for free HTML resume template on the internet and just edited a bit here and there
 
 ### Static Website
+How to deploy a statis website
+- Create S3 bucket allowing public access
+- Add bucket policy (see ./s3_policy/policy.json)
+- Manually upload error.html, index.html and styles.css to the bucket
