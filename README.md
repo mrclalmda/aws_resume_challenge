@@ -12,7 +12,7 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 ## General Guide
 - Get Cloud Practitioner Certified
-- ConfigureAWS Account configured as to not use root user
+- Configure AWS Account configured as to not use root user
 - Will to learn
 - Stick to us-east-1 region
 
@@ -30,6 +30,22 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 
 ### Static Website
 How to deploy a statis website
+
+Route 53
+- Register a domain. Costs around 10USD
+- Create Hosted Zone and create a record of type A pointing to the desired CloudFront distribution
+
+S3
 - Create S3 bucket allowing public access
 - Add bucket policy (see ./s3_policy/policy.json)
 - Manually upload error.html, index.html and styles.css to the bucket
+- Naming the bucket the same as the domain allows you to set its type to S3 STATIC WEBSITE
+
+CloudFront
+- Create distribution having its origin pointed at the S3 website endpoint rather than the bucket endpoint.
+- Set distribution Alternate domain name (CNAME) value to your domain
+- Select a custom SSL certificate either from the list if you have one already or click Request certificate
+
+AWS Certificate Manager (ACM)
+- Request certificate 
+- Use "Create records in Route 53" button to retreive a CNAME
