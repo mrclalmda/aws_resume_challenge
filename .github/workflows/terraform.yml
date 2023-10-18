@@ -17,10 +17,7 @@ jobs:
         run: terraform -chdir=terraform/acm init
 
       - name: Plan Terraform changes
-        run: terraform -chdir=terraform\\acm plan
+        run: terraform -chdir=terraform/acm plan
 
       - name: Apply Terraform changes
-        run: terraform -chdir=terraform\\acm apply
-
-      - name: Destroy Terraform resources
-        run: terraform -chdir=terraform\\acm destroy (optional)
+        run: terraform -chdir=terraform/acm apply
