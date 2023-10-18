@@ -5,6 +5,12 @@ on:
     branches:
       - main
 
+env:
+  TF_CLOUD_ORGANIZATION: "aws-resume-challenge"
+  TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
+  TF_WORKSPACE: "aws-resume-challenge"
+  CONFIG_DIRECTORY: "./"
+
 jobs:
   terraform:
     name: "ACM"
