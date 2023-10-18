@@ -14,7 +14,7 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 - Get Cloud Practitioner Certified
 - Configure AWS Account configured as to not use root user
 - Will to learn
-- Stick to us-east-1 region
+- Stick to us-east-1 region (its cheaper)
 
 ## Implementation
 
@@ -26,7 +26,7 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 ### HTML & CSS
 - Simple layout, unless youre applying to design position such as front-end developer/ux/ui
 - Start here https://codepen.io/emzarts/pen/OXzmym
-- Since Im applying for DevOps and SRE roles, I searched for free HTML resume template on the internet and just edited a bit here and there
+- Since Im applying for DevOps and SRE roles, I searched for HTML resume template on the internet and just edited a bit here and there
 
 ### Static Website
 How to deploy a static website
