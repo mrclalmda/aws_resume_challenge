@@ -29,7 +29,7 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 - Since Im applying for DevOps and SRE roles, I searched for free HTML resume template on the internet and just edited a bit here and there
 
 ### Static Website
-How to deploy a statis website
+How to deploy a static website
 
 Route 53
 - Register a domain. Costs around 10USD
