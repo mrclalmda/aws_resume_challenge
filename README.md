@@ -19,7 +19,7 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 ## Implementation
 
 ### Certification
-- This cert usually costs 100USD but AWS is always promoting events in which after you take part in (for free) you are awarded a free voucher at the end, so stay tuned to AWS social media profiles and AWS professionals or former ones, that are content creators and are always sharing tips and news about AWS products
+- This certification usually costs 100USD but AWS is always promoting events in which after you take part in (for free) you are awarded a free voucher at the end, so stay tuned to AWS social media profiles and AWS professionals or former ones, that are content creators and are always sharing tips and news about AWS products
 - To study Ive used AWS Skill Builder. The offer paid and free courses, for this certification I woult not recommend buying any sort of course, its an entry-level cert an the free content that is available at Skill Builder should be enough https://skillbuilder.aws/search?page=1&trainingCategory=5&domain=12&isPaid=0
 - Free Code Camp has a great youtube course on this subject too
 
