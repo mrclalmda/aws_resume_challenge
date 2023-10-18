@@ -7,19 +7,20 @@ on:
 
 jobs:
   terraform:
+    name: "ACM"
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
 
       - name: Initialize Terraform
-        run: terraform init
+        run: terraform -chdir=terraform\acm init
 
       - name: Plan Terraform changes
-        run: terraform plan
+        run: terraform -chdir=terraform\acm plan
 
       - name: Apply Terraform changes
-        run: terraform apply
+        run: terraform -chdir=terraform\acm apply
 
       - name: Destroy Terraform resources
-        run: terraform destroy (optional)
+        run: terraform -chdir=terraform\acm destroy (optional)
