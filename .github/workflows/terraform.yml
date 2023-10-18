@@ -5,10 +5,6 @@ on:
     branches:
       - main
 
-env:
-  TF_WORKSPACE: "aws_resume_challenge"
-  CONFIG_DIRECTORY: "./"
-
 jobs:
   terraform:
     name: "ACM"
