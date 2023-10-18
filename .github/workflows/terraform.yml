@@ -5,16 +5,24 @@ on:
     branches:
       - main
 
+env:
+  TF_WORKSPACE: "aws_resume_challenge"
+  CONFIG_DIRECTORY: "./"
+
 jobs:
   terraform:
     name: "ACM"
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
       - uses: actions/checkout@v3
 
       - name: Initialize Terraform
-        run: pwd
+        with: 
+          workspace: ${{ env.TF_WORKSPACE }}
+          directory: ${{ env.CONFIG_DIRECTORY }}
+        run: terraform -chdir=terraform\\acm init
 
       - name: Plan Terraform changes
         run: terraform -chdir=terraform\\acm plan
