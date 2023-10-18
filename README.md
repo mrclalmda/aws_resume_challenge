@@ -13,7 +13,7 @@ https://cloudresumechallenge.dev/docs/the-challenge/aws/
 ## General Guide
 - Get Cloud Practitioner Certified
 - Configure AWS Account configured as to not use root user
-- Will to learn
+- This was written by me and may contain grammar mistakes
 - Stick to us-east-1 region (its cheaper)
 
 ## Implementation
